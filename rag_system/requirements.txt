@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+groq
+chromadb
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+llama-index-vector-stores-chroma
+sentence-transformers
+rapidfuzz

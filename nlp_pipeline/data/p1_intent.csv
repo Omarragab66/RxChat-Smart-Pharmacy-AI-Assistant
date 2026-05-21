@@ -1,0 +1,705 @@
+﻿id,drug_name,generic_name,drug_class,text,intent,confidence
+INTN0001,بانادول,Paracetamol,analgesic,كم حبة بانادول مسموح آخدها في اليوم؟,dosage,0.97
+INTN0002,بانادول,Paracetamol,analgesic,هل بانادول بيضر الكلى لو استخدمته كتير؟,contraindication,0.96
+INTN0003,بانادول,Paracetamol,analgesic,إيه الأعراض الجانبية الشائعة لبانادول؟,side_effects,0.98
+INTN0004,بانادول,Paracetamol,analgesic,هل ينفع آخد بانادول مع أدوية الضغط؟,drug_interaction,0.95
+INTN0005,بانادول,Paracetamol,analgesic,بانادول بيعالج إيه بالضبط؟,general_info,0.97
+INTN0006,بانادول,Paracetamol,analgesic,سعر علبة بانادول كام دلوقتي؟,price,0.94
+INTN0007,بانادول,Paracetamol,analgesic,بانادول موجود في الصيدليات ولا خلص؟,availability,0.93
+INTN0008,بروفين,Ibuprofen,nsaid,بروفين بيأثر على المعدة؟,side_effects,0.97
+INTN0009,بروفين,Ibuprofen,nsaid,لو عندي قرحة معدة، ينفع بروفين؟,contraindication,0.96
+INTN0010,كونكور,Bisoprolol,beta blocker,كم الجرعة اليومية من كونكور؟,dosage,0.98
+INTN0011,كونكور,Bisoprolol,beta blocker,كونكور بيخليني تعبان ونعسان، طبيعي؟,side_effects,0.95
+INTN0012,كوزار,Losartan,angiotensin receptor blocker,كوزار بيتفاعل مع البروفين؟,drug_interaction,0.96
+INTN0013,سنجولار,Montelukast,antiasthmatic,سنجولار ينفع للأطفال؟,contraindication,0.94
+INTN0014,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيستخدم للحموضة والقرحة؟,general_info,0.97
+INTN0015,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد كام يوم؟,dosage,0.96
+INTN0016,ليريكا,Pregabalin,antiepileptic,ليريكا بيسبب زيادة وزن؟,side_effects,0.93
+INTN0017,بانادول,Paracetamol,analgesic,فيه تفاعل بين بانادول وأدوية الضغط؟,drug_interaction,0.95
+INTN0018,كونكور,Bisoprolol,beta blocker,لو وقفت كونكور فجأة هيحصل إيه؟,contraindication,0.96
+INTN0019,فنتولين,Salbutamol,bronchodilator,فنتولين البخاخ كام مرة في اليوم؟,dosage,0.97
+INTN0020,كلاريتين,Loratadine,antihistamine,كلاريتين بيسبب نعاس؟,side_effects,0.95
+INTN0021,ميتفورمين,Metformin,antidiabetic,ميتفورمين قبل الأكل ولا بعده؟,dosage,0.96
+INTN0022,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بيأثر على الكبد؟,side_effects,0.96
+INTN0023,وارفارين,Warfarin,anticoagulant,وارفارين بيتفاعل مع الخضار الورقي؟,drug_interaction,0.97
+INTN0024,هارنال,Tamsulosin,alpha blocker,هارنال للبروستاتا؟,general_info,0.96
+INTN0025,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للأطفال الصغيرين؟,contraindication,0.94
+INTN0026,بانادول,Paracetamol,analgesic,سعر شريط بانادول كام؟,price,0.93
+INTN0027,بروفين,Ibuprofen,nsaid,بروفين بيرفع الضغط؟,side_effects,0.95
+INTN0028,كونكور,Bisoprolol,beta blocker,كونكور ينفع لمرضى الربو؟,contraindication,0.95
+INTN0029,سنجولار,Montelukast,antiasthmatic,سنجولار كام مرة في اليوم؟,dosage,0.97
+INTN0030,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيأثر على امتصاص الحديد؟,drug_interaction,0.93
+INTN0031,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيسبب إسهال؟,side_effects,0.95
+INTN0032,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الأعصاب؟,general_info,0.96
+INTN0033,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع للأطفال؟,contraindication,0.94
+INTN0034,كلاريتين,Loratadine,antihistamine,كلاريتين مع أدوية الضغط آمن؟,drug_interaction,0.95
+INTN0035,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيخسس فعلاً؟,side_effects,0.92
+INTN0036,أتورفاستاتين,Atorvastatin,statin,جرعة أتورفاستاتين كام؟,dosage,0.97
+INTN0037,وارفارين,Warfarin,anticoagulant,نسيت جرعة وارفارين، أعمل إيه؟,dosage,0.96
+INTN0038,هارنال,Tamsulosin,alpha blocker,هارنال بيأثر على الضغط؟,side_effects,0.94
+INTN0039,زيرتيك,Cetirizine,antihistamine,زيرتيك موجود شراب؟,availability,0.93
+INTN0040,بانادول,Paracetamol,analgesic,بانادول آمن أثناء الحمل؟,contraindication,0.95
+INTN0041,بروفين,Ibuprofen,nsaid,بروفين مع اللبن ولا فاضي؟,dosage,0.94
+INTN0042,كونكور,Bisoprolol,beta blocker,كونكور بيبطئ القلب، طبيعي؟,side_effects,0.96
+INTN0043,كوزار,Losartan,angiotensin receptor blocker,كوزار ينفع لمرضى السكر؟,general_info,0.95
+INTN0044,سنجولار,Montelukast,antiasthmatic,سنجولار قبل النوم؟,dosage,0.96
+INTN0045,نيكسيوم,Esomeprazole,proton pump inhibitor,سعر نيكسيوم غالي، فيه بديل أرخص؟,price,0.94
+INTN0046,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين لالتهاب الحلق؟,general_info,0.96
+INTN0047,ليريكا,Pregabalin,antiepileptic,ليريكا بيسبب دوخة؟,side_effects,0.95
+INTN0048,فنتولين,Salbutamol,bronchodilator,فنتولين يستخدم يوميًا؟,dosage,0.94
+INTN0049,كلاريتين,Loratadine,antihistamine,كلاريتين للحساسية الموسمية؟,general_info,0.97
+INTN0050,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيأثر على الكلى؟,contraindication,0.96
+INTN0051,بانادول,Paracetamol,analgesic,هل بانادول ينفع للصداع النصفي؟,general_info,0.94
+INTN0052,بروفين,Ibuprofen,nsaid,بروفين بعد الأكل ولا قبله أفضل؟,dosage,0.95
+INTN0053,كونكور,Bisoprolol,beta blocker,كونكور بيسبب برودة في الأطراف؟,side_effects,0.93
+INTN0054,كوزار,Losartan,angiotensin receptor blocker,كوزار ينفع للضغط العالي فقط؟,general_info,0.96
+INTN0055,سنجولار,Montelukast,antiasthmatic,سنجولار بياخد وقت عشان يشتغل؟,dosage,0.95
+INTN0056,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم ينفع لمدة طويلة؟,contraindication,0.94
+INTN0057,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيسبب حساسية جلدية؟,side_effects,0.93
+INTN0058,ليريكا,Pregabalin,antiepileptic,ليريكا ينفع لآلام الظهر؟,general_info,0.95
+INTN0059,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ قبل الرياضة؟,dosage,0.96
+INTN0060,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للرشح؟,general_info,0.94
+INTN0061,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيسبب غثيان في الأول؟,side_effects,0.95
+INTN0062,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين مع الجريب فروت؟,drug_interaction,0.97
+INTN0063,وارفارين,Warfarin,anticoagulant,وارفارين يحتاج تحاليل دورية؟,general_info,0.96
+INTN0064,هارنال,Tamsulosin,alpha blocker,هارنال بيسبب دوخة لما أقف؟,side_effects,0.94
+INTN0065,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع مع أدوية الحساسية الأخرى؟,drug_interaction,0.93
+INTN0066,بانادول,Paracetamol,analgesic,بانادول أفضل ولا بروفين للأسنان؟,general_info,0.95
+INTN0067,بروفين,Ibuprofen,nsaid,بروفين يرفع ضغط الدم؟,side_effects,0.94
+INTN0068,كونكور,Bisoprolol,beta blocker,كونكور ينفع للقلق والتوتر؟,general_info,0.92
+INTN0069,كوزار,Losartan,angiotensin receptor blocker,كوزار بيحمي الكلى؟,general_info,0.95
+INTN0070,سنجولار,Montelukast,antiasthmatic,سنجولار مع الإنسولين آمن؟,drug_interaction,0.94
+INTN0071,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيسبب نقص فيتامين ب12؟,side_effects,0.93
+INTN0072,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين لالتهاب الأذن؟,general_info,0.96
+INTN0073,ليريكا,Pregabalin,antiepileptic,ليريكا بيأثر على التركيز؟,side_effects,0.95
+INTN0074,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع للربو المزمن؟,general_info,0.96
+INTN0075,كلاريتين,Loratadine,antihistamine,كلاريتين سعره كام؟,price,0.93
+INTN0076,ميتفورمين,Metformin,antidiabetic,ميتفورمين ينفع للـ PCOS؟,general_info,0.94
+INTN0077,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بيسبب ألم عضلات؟,side_effects,0.96
+INTN0078,وارفارين,Warfarin,anticoagulant,وارفارين مع فيتامين K؟,drug_interaction,0.97
+INTN0079,هارنال,Tamsulosin,alpha blocker,هارنال ينفع للنساء؟,contraindication,0.92
+INTN0080,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للجيوب الأنفية؟,general_info,0.95
+INTN0081,بانادول,Paracetamol,analgesic,بانادول مع اللبن آمن؟,drug_interaction,0.94
+INTN0082,بروفين,Ibuprofen,nsaid,بروفين للدورة الشهرية؟,general_info,0.96
+INTN0083,كونكور,Bisoprolol,beta blocker,كونكور بيسبب ضعف انتصاب؟,side_effects,0.93
+INTN0084,كوزار,Losartan,angiotensin receptor blocker,كوزار أفضل من الدواء القديم للضغط؟,general_info,0.94
+INTN0085,سنجولار,Montelukast,antiasthmatic,سنجولار بياخد وقت طويل عشان يشتغل؟,dosage,0.95
+INTN0086,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم ينفع أثناء الحمل؟,contraindication,0.93
+INTN0087,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيقتل البكتيريا ولا الفيروسات؟,general_info,0.96
+INTN0088,ليريكا,Pregabalin,antiepileptic,ليريكا ينفع للفيبروميالجيا؟,general_info,0.95
+INTN0089,فنتولين,Salbutamol,bronchodilator,فنتولين بيسبب رعشة؟,side_effects,0.94
+INTN0090,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للحكة في الجسم؟,general_info,0.95
+INTN0091,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيحتاج فيتامين ب12؟,side_effects,0.93
+INTN0092,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين سعره كام؟,price,0.92
+INTN0093,وارفارين,Warfarin,anticoagulant,وارفارين ينفع للجلطات؟,general_info,0.96
+INTN0094,هارنال,Tamsulosin,alpha blocker,هارنال بيسبب احتقان أنف؟,side_effects,0.94
+INTN0095,زيرتيك,Cetirizine,antihistamine,زيرتيك مع الكحول خطر؟,drug_interaction,0.95
+INTN0096,بانادول,Paracetamol,analgesic,بانادول للأطفال جرعته إيه؟,dosage,0.97
+INTN0097,بروفين,Ibuprofen,nsaid,بروفين ينفع لالتهاب المفاصل؟,general_info,0.96
+INTN0098,كونكور,Bisoprolol,beta blocker,كونكور مع أدوية الغدة الدرقية؟,drug_interaction,0.94
+INTN0099,كوزار,Losartan,angiotensin receptor blocker,كوزار بيسبب سعال؟,side_effects,0.95
+INTN0100,سنجولار,Montelukast,antiasthmatic,سنجولار ينفع مع بخاخات الربو؟,drug_interaction,0.96
+INTN0101,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم موجود 40 مجم؟,availability,0.93
+INTN0102,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين لالتهاب اللوزتين؟,general_info,0.96
+INTN0103,ليريكا,Pregabalin,antiepileptic,ليريكا بيأثر على المزاج؟,side_effects,0.93
+INTN0104,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع للأطفال تحت 6 سنين؟,contraindication,0.94
+INTN0105,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع لمدة طويلة؟,dosage,0.95
+INTN0106,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيسبب نقص فيتامين ب12؟,side_effects,0.94
+INTN0107,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين ينفع للكوليسترول العالي؟,general_info,0.97
+INTN0108,وارفارين,Warfarin,anticoagulant,وارفارين مع الأسبرين خطر؟,drug_interaction,0.96
+INTN0109,هارنال,Tamsulosin,alpha blocker,هارنال بيخلي الإنسان يقوم كتير بالليل؟,side_effects,0.93
+INTN0110,زيرتيك,Cetirizine,antihistamine,زيرتيك سعره رخيص ولا غالي؟,price,0.92
+INTN0111,بانادول,Paracetamol,analgesic,بانادول إكسترا أقوى من العادي؟,general_info,0.95
+INTN0112,بروفين,Ibuprofen,nsaid,بروفين 400 أو 600 أفضل؟,dosage,0.94
+INTN0113,كونكور,Bisoprolol,beta blocker,كونكور 5 مجم كفاية؟,dosage,0.96
+INTN0114,كوزار,Losartan,angiotensin receptor blocker,كوزار 50 أو 100 مجم؟,dosage,0.95
+INTN0115,سنجولار,Montelukast,antiasthmatic,سنجولار 10 مجم يوميًا؟,dosage,0.97
+INTN0116,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم 20 مجم كفاية للحموضة؟,dosage,0.94
+INTN0117,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين 625 مجم كام مرة؟,dosage,0.96
+INTN0118,ليريكا,Pregabalin,antiepileptic,ليريكا 75 مجم ينفع؟,dosage,0.95
+INTN0119,فنتولين,Salbutamol,bronchodilator,فنتولين يستخدم عند الحاجة فقط؟,dosage,0.96
+INTN0120,كلاريتين,Loratadine,antihistamine,كلاريتين 10 مجم مرة واحدة يوميًا؟,dosage,0.97
+INTN0121,ميتفورمين,Metformin,antidiabetic,ميتفورمين 500 مجم كام مرة؟,dosage,0.96
+INTN0122,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين 20 مجم كفاية؟,dosage,0.95
+INTN0123,وارفارين,Warfarin,anticoagulant,وارفارين الجرعة بتتعدل حسب التحليل؟,general_info,0.97
+INTN0124,هارنال,Tamsulosin,alpha blocker,هارنال 0.4 مجم قبل النوم؟,dosage,0.96
+INTN0125,زيرتيك,Cetirizine,antihistamine,زيرتيك 10 مجم يوميًا؟,dosage,0.96
+INTN0126,بانادول,Paracetamol,analgesic,بانادول شراب للأطفال جرعته إيه؟,dosage,0.97
+INTN0127,بروفين,Ibuprofen,nsaid,بروفين شراب للأطفال؟,availability,0.94
+INTN0128,كونكور,Bisoprolol,beta blocker,كونكور موجود 2.5 مجم؟,availability,0.93
+INTN0129,كوزار,Losartan,angiotensin receptor blocker,كوزار موجود 25 مجم؟,availability,0.92
+INTN0130,سنجولار,Montelukast,antiasthmatic,سنجولار شراب موجود؟,availability,0.94
+INTN0131,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم موجود كبسولات وأقراص؟,availability,0.95
+INTN0132,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين شراب للأطفال؟,availability,0.96
+INTN0133,ليريكا,Pregabalin,antiepileptic,ليريكا كبسولات 150 مجم موجودة؟,availability,0.93
+INTN0134,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ موجود دايمًا؟,availability,0.94
+INTN0135,كلاريتين,Loratadine,antihistamine,كلاريتين شراب موجود؟,availability,0.93
+INTN0136,ميتفورمين,Metformin,antidiabetic,ميتفورمين 1000 مجم موجود؟,availability,0.92
+INTN0137,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين 40 مجم موجود؟,availability,0.93
+INTN0138,وارفارين,Warfarin,anticoagulant,وارفارين 5 مجم موجود؟,availability,0.95
+INTN0139,هارنال,Tamsulosin,alpha blocker,هارنال موجود 0.4 مجم؟,availability,0.94
+INTN0140,زيرتيك,Cetirizine,antihistamine,زيرتيك موجود 5 مجم للأطفال؟,availability,0.93
+INTN0141,بانادول,Paracetamol,analgesic,بانادول نايت موجود؟,availability,0.92
+INTN0142,بروفين,Ibuprofen,nsaid,بروفين 600 مجم موجود؟,availability,0.93
+INTN0143,كونكور,Bisoprolol,beta blocker,كونكور 10 مجم موجود؟,availability,0.94
+INTN0144,كوزار,Losartan,angiotensin receptor blocker,كوزار بلس موجود؟,availability,0.95
+INTN0145,سنجولار,Montelukast,antiasthmatic,سنجولار 4 مجم للأطفال؟,availability,0.94
+INTN0146,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم 40 مجم موجود؟,availability,0.96
+INTN0147,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين ES موجود؟,availability,0.93
+INTN0148,ليريكا,Pregabalin,antiepileptic,ليريكا 300 مجم موجود؟,availability,0.92
+INTN0149,فنتولين,Salbutamol,bronchodilator,فنتولين nebules موجود؟,availability,0.94
+INTN0150,كلاريتين,Loratadine,antihistamine,كلاريتين ديس لوراتادين موجود؟,availability,0.93
+INTN0151,بانادول,Paracetamol,analgesic,بانادول أطفال سعره كام؟,price,0.92
+INTN0152,بروفين,Ibuprofen,nsaid,بروفين شراب سعره كام؟,price,0.93
+INTN0153,كونكور,Bisoprolol,beta blocker,كونكور 5 مجم علبة كام؟,price,0.94
+INTN0154,كوزار,Losartan,angiotensin receptor blocker,كوزار 50 مجم سعره كام؟,price,0.93
+INTN0155,سنجولار,Montelukast,antiasthmatic,سنجولار 10 مجم سعره كام؟,price,0.94
+INTN0156,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم 20 مجم سعره كام؟,price,0.92
+INTN0157,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين 625 سعره كام؟,price,0.93
+INTN0158,ليريكا,Pregabalin,antiepileptic,ليريكا 75 مجم سعره كام؟,price,0.92
+INTN0159,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ سعره كام؟,price,0.93
+INTN0160,كلاريتين,Loratadine,antihistamine,كلاريتين 10 مجم سعره كام؟,price,0.94
+INTN0161,ميتفورمين,Metformin,antidiabetic,ميتفورمين 500 مجم سعره كام؟,price,0.92
+INTN0162,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين 20 مجم سعره كام؟,price,0.93
+INTN0163,وارفارين,Warfarin,anticoagulant,وارفارين 5 مجم سعره كام؟,price,0.94
+INTN0164,هارنال,Tamsulosin,alpha blocker,هارنال 0.4 مجم سعره كام؟,price,0.93
+INTN0165,زيرتيك,Cetirizine,antihistamine,زيرتيك 10 مجم سعره كام؟,price,0.92
+INTN0166,بانادول,Paracetamol,analgesic,بانادول إكسترا سعره كام؟,price,0.93
+INTN0167,بروفين,Ibuprofen,nsaid,بروفين 400 مجم سعره كام؟,price,0.92
+INTN0168,كونكور,Bisoprolol,beta blocker,كونكور 10 مجم سعره كام؟,price,0.93
+INTN0169,كوزار,Losartan,angiotensin receptor blocker,كوزار بلس سعره كام؟,price,0.94
+INTN0170,سنجولار,Montelukast,antiasthmatic,سنجولار شراب سعره كام؟,price,0.93
+INTN0171,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم 40 مجم سعره كام؟,price,0.92
+INTN0172,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين شراب سعره كام؟,price,0.93
+INTN0173,ليريكا,Pregabalin,antiepileptic,ليريكا 150 مجم سعره كام؟,price,0.92
+INTN0174,فنتولين,Salbutamol,bronchodilator,فنتولين nebules سعره كام؟,price,0.93
+INTN0175,كلاريتين,Loratadine,antihistamine,كلاريتين شراب سعره كام؟,price,0.92
+INTN0176,ميتفورمين,Metformin,antidiabetic,ميتفورمين 1000 مجم سعره كام؟,price,0.93
+INTN0177,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين 40 مجم سعره كام؟,price,0.92
+INTN0178,وارفارين,Warfarin,anticoagulant,وارفارين سعره كام؟,price,0.94
+INTN0179,هارنال,Tamsulosin,alpha blocker,هارنال سعره كام؟,price,0.93
+INTN0180,زيرتيك,Cetirizine,antihistamine,زيرتيك سعره كام؟,price,0.92
+INTN0181,بانادول,Paracetamol,analgesic,بانادول نايت سعره كام؟,price,0.93
+INTN0182,بروفين,Ibuprofen,nsaid,بروفين 600 مجم سعره كام؟,price,0.92
+INTN0183,كونكور,Bisoprolol,beta blocker,كونكور 2.5 مجم سعره كام؟,price,0.93
+INTN0184,كوزار,Losartan,angiotensin receptor blocker,كوزار 25 مجم سعره كام؟,price,0.92
+INTN0185,سنجولار,Montelukast,antiasthmatic,سنجولار 4 مجم سعره كام؟,price,0.93
+INTN0186,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم سعره كام تقريبًا؟,price,0.92
+INTN0187,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين 1 جم سعره كام؟,price,0.93
+INTN0188,ليريكا,Pregabalin,antiepileptic,ليريكا 300 مجم سعره كام؟,price,0.92
+INTN0189,ميتفورمين,Metformin,antidiabetic,ميتفورمين سعره رخيص؟,price,0.93
+INTN0190,هارنال,Tamsulosin,alpha blocker,هارنال سعره كام تقريبًا؟,price,0.92
+INTN0191,كونكور,Bisoprolol,beta blocker,كونكور سعره كام؟,price,0.92
+INTN0192,كوزار,Losartan,angiotensin receptor blocker,كوزار سعره كام؟,price,0.93
+INTN0193,سنجولار,Montelukast,antiasthmatic,سنجولار سعره كام؟,price,0.94
+INTN0194,بانادول,Paracetamol,analgesic,بانادول ينفع لوجع الأسنان الشديد؟,general_info,0.95
+INTN0195,بانادول,Paracetamol,analgesic,هل آخد بانادول على معدة فاضية؟,dosage,0.94
+INTN0196,بروفين,Ibuprofen,nsaid,بروفين بيسبب حرقان في المعدة؟,side_effects,0.96
+INTN0197,كونكور,Bisoprolol,beta blocker,كونكور بيخلي الإيدين باردة؟,side_effects,0.94
+INTN0198,كوزار,Losartan,angiotensin receptor blocker,كوزار بيحسن وظيفة الكلى؟,general_info,0.95
+INTN0199,سنجولار,Montelukast,antiasthmatic,سنجولار بيمنع نوبات الربو؟,general_info,0.96
+INTN0200,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيوقف الحموضة نهائي؟,general_info,0.93
+INTN0201,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيحتاج يتاخد مع الاكل؟,dosage,0.95
+INTN0202,ليريكا,Pregabalin,antiepileptic,ليريكا بيأثر على النوم؟,side_effects,0.94
+INTN0203,فنتولين,Salbutamol,bronchodilator,فنتولين بيفتح الشعب الهوائية بسرعة؟,general_info,0.97
+INTN0204,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للحساسية من الغبار؟,general_info,0.95
+INTN0205,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيحسن مقاومة الإنسولين؟,general_info,0.94
+INTN0206,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بيقلل الكوليسترول الضار؟,general_info,0.96
+INTN0207,وارفارين,Warfarin,anticoagulant,وارفارين بيمنع الجلطات في القلب؟,general_info,0.96
+INTN0208,هارنال,Tamsulosin,alpha blocker,هارنال بيخلي التبول أسهل؟,general_info,0.95
+INTN0209,زيرتيك,Cetirizine,antihistamine,زيرتيك بيشتغل بعد كام ساعة؟,dosage,0.94
+INTN0210,بانادول,Paracetamol,analgesic,بانادول مع الكحول خطر؟,drug_interaction,0.96
+INTN0211,بروفين,Ibuprofen,nsaid,بروفين ينفع بعد العمليات؟,general_info,0.93
+INTN0212,كونكور,Bisoprolol,beta blocker,كونكور بيقلل ضربات القلب الزيادة؟,general_info,0.96
+INTN0213,كوزار,Losartan,angiotensin receptor blocker,كوزار بيحمي القلب؟,general_info,0.95
+INTN0214,سنجولار,Montelukast,antiasthmatic,سنجولار ينفع للأنف المتسرب؟,general_info,0.94
+INTN0215,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيعلاج الارتجاع المريئي؟,general_info,0.97
+INTN0216,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين ينفع لالتهاب الجيوب الأنفية؟,general_info,0.95
+INTN0217,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم للقلق أحيانًا؟,general_info,0.92
+INTN0218,فنتولين,Salbutamol,bronchodilator,فنتولين بيسبب خفقان القلب؟,side_effects,0.95
+INTN0219,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للعطس المتكرر؟,general_info,0.94
+INTN0220,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيقلل السكر في الدم؟,general_info,0.96
+INTN0221,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بيمنع تصلب الشرايين؟,general_info,0.95
+INTN0222,وارفارين,Warfarin,anticoagulant,وارفارين بيحتاج نظام غذائي معين؟,dosage,0.96
+INTN0223,هارنال,Tamsulosin,alpha blocker,هارنال بيأثر على الرؤية؟,side_effects,0.93
+INTN0224,زيرتيك,Cetirizine,antihistamine,زيرتيك بيسبب جفاف الفم؟,side_effects,0.94
+INTN0225,بانادول,Paracetamol,analgesic,بانادول أطفال جرعته حسب الوزن؟,dosage,0.97
+INTN0226,بروفين,Ibuprofen,nsaid,بروفين شراب جرعته للأطفال؟,dosage,0.95
+INTN0227,كونكور,Bisoprolol,beta blocker,كونكور ينفع بعد الجلطة؟,general_info,0.94
+INTN0228,كوزار,Losartan,angiotensin receptor blocker,كوزار بلس فيه مدر للبول؟,general_info,0.95
+INTN0229,سنجولار,Montelukast,antiasthmatic,سنجولار ينفع للأطفال من سن 2 سنة؟,contraindication,0.94
+INTN0230,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بياخد صباحًا ولا مساءً؟,dosage,0.96
+INTN0231,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيحتاج يخلص كله حتى لو تحسنت؟,dosage,0.97
+INTN0232,ليريكا,Pregabalin,antiepileptic,ليريكا بيوقف الألم العصبي بسرعة؟,general_info,0.94
+INTN0233,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع في أزمة الربو الحادة؟,general_info,0.96
+INTN0234,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للطفح الجلدي؟,general_info,0.93
+INTN0235,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيقلل الشهية؟,side_effects,0.92
+INTN0236,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بياخد قبل النوم أفضل؟,dosage,0.95
+INTN0237,وارفارين,Warfarin,anticoagulant,وارفارين بيحتاج تجنب الجراحات بدون استشارة؟,contraindication,0.96
+INTN0238,هارنال,Tamsulosin,alpha blocker,هارنال بيخلي الضغط ينزل؟,side_effects,0.94
+INTN0239,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للأكزيما؟,general_info,0.93
+INTN0240,بانادول,Paracetamol,analgesic,بانادول إكسترا للوجع الشديد؟,general_info,0.95
+INTN0241,بروفين,Ibuprofen,nsaid,بروفين 400 مجم كام مرة في اليوم؟,dosage,0.96
+INTN0242,كونكور,Bisoprolol,beta blocker,كونكور 5 مجم يوميًا كفاية؟,dosage,0.95
+INTN0243,كوزار,Losartan,angiotensin receptor blocker,كوزار 100 مجم جرعة قوية؟,dosage,0.94
+INTN0244,سنجولار,Montelukast,antiasthmatic,سنجولار 5 مجم للأطفال؟,dosage,0.95
+INTN0245,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم 40 مجم للقرحة؟,dosage,0.96
+INTN0246,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين 1 جرام كام مرة؟,dosage,0.95
+INTN0247,ليريكا,Pregabalin,antiepileptic,ليريكا 150 مجم مرتين يوميًا؟,dosage,0.94
+INTN0248,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ كام نفخة في المرة؟,dosage,0.96
+INTN0249,كلاريتين,Loratadine,antihistamine,كلاريتين مرة واحدة بس في اليوم؟,dosage,0.97
+INTN0250,ميتفورمين,Metformin,antidiabetic,ميتفورمين 850 مجم كام مرة؟,dosage,0.95
+INTN0251,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين 10 مجم كفاية في البداية؟,dosage,0.94
+INTN0252,وارفارين,Warfarin,anticoagulant,وارفارين الجرعة بتتغير حسب INR؟,dosage,0.97
+INTN0253,هارنال,Tamsulosin,alpha blocker,هارنال بعد الأكل ولا قبله؟,dosage,0.94
+INTN0254,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للأطفال فوق سن 6 سنين؟,contraindication,0.93
+INTN0255,بانادول,Paracetamol,analgesic,بانادول فيه نوع للأطفال تحت سنة؟,availability,0.92
+INTN0256,بروفين,Ibuprofen,nsaid,بروفين ينفع للالتهاب بعد الخلع؟,general_info,0.95
+INTN0257,كونكور,Bisoprolol,beta blocker,كونكور بيستخدم في قصور القلب؟,general_info,0.94
+INTN0258,كوزار,Losartan,angiotensin receptor blocker,كوزار بيقلل خطر السكتة؟,general_info,0.95
+INTN0259,سنجولار,Montelukast,antiasthmatic,سنجولار بيقلل استخدام البخاخات؟,general_info,0.94
+INTN0260,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيعلاج التهاب المريء؟,general_info,0.96
+INTN0261,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين ينفع لالتهاب المسالك البولية؟,general_info,0.95
+INTN0262,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم بعد العمليات للألم؟,general_info,0.93
+INTN0263,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع في البرد الشديد؟,general_info,0.92
+INTN0264,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للشرى الجلدي؟,general_info,0.94
+INTN0265,ميتفورمين,Metformin,antidiabetic,ميتفورمين بيقلل خطر السكر نوع 2؟,general_info,0.95
+INTN0266,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين بعد الأكل ولا فاضي؟,dosage,0.94
+INTN0267,وارفارين,Warfarin,anticoagulant,وارفارين يمنع الجلطات في الساقين؟,general_info,0.96
+INTN0268,هارنال,Tamsulosin,alpha blocker,هارنال بيحسن تدفق البول؟,general_info,0.95
+INTN0269,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للالتهاب التحسسي في العين؟,general_info,0.94
+INTN0270,بانادول,Paracetamol,analgesic,بانادول مع فيتامين C آمن؟,drug_interaction,0.93
+INTN0271,بروفين,Ibuprofen,nsaid,بروفين مع أدوية السيولة خطر؟,drug_interaction,0.96
+INTN0272,كونكور,Bisoprolol,beta blocker,كونكور مع أدوية الضغط الأخرى؟,drug_interaction,0.95
+INTN0273,كوزار,Losartan,angiotensin receptor blocker,كوزار مع مدرات البول؟,drug_interaction,0.94
+INTN0274,سنجولار,Montelukast,antiasthmatic,سنجولار مع مضادات الهيستامين؟,drug_interaction,0.93
+INTN0275,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم مع أدوية القلب؟,drug_interaction,0.94
+INTN0276,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين مع أدوية المناعة؟,drug_interaction,0.92
+INTN0277,ليريكا,Pregabalin,antiepileptic,ليريكا مع أدوية النوم؟,drug_interaction,0.93
+INTN0278,فنتولين,Salbutamol,bronchodilator,فنتولين مع أدوية القلب؟,drug_interaction,0.94
+INTN0279,كلاريتين,Loratadine,antihistamine,كلاريتين مع أدوية البرد؟,drug_interaction,0.95
+INTN0280,ميتفورمين,Metformin,antidiabetic,ميتفورمين مع أدوية الغدة؟,drug_interaction,0.93
+INTN0281,أتورفاستاتين,Atorvastatin,statin,أتورفاستاتين مع أدوية الضغط؟,drug_interaction,0.94
+INTN0282,وارفارين,Warfarin,anticoagulant,وارفارين مع المسكنات؟,drug_interaction,0.96
+INTN0283,هارنال,Tamsulosin,alpha blocker,هارنال مع أدوية الضغط؟,drug_interaction,0.93
+INTN0284,زيرتيك,Cetirizine,antihistamine,زيرتيك مع أدوية الحساسية؟,drug_interaction,0.92
+INTN0285,بانادول,Paracetamol,analgesic,بانadول في رمضان قبل الفطار؟,dosage,0.94
+INTN0286,بروفين,Ibuprofen,nsaid,بروفين بعد الفطار في رمضان؟,dosage,0.93
+INTN0287,كونكور,Bisoprolol,beta blocker,كونكور في رمضان ينفع؟,dosage,0.95
+INTN0288,كوزار,Losartan,angiotensin receptor blocker,كوزار مرة واحدة في اليوم كفاية؟,dosage,0.96
+INTN0289,سنجولار,Montelukast,antiasthmatic,سنجولار في رمضان قبل السحور؟,dosage,0.94
+INTN0290,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم صباحًا على الريق؟,dosage,0.95
+INTN0291,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بعد الأكل عشان المعدة؟,dosage,0.96
+INTN0292,ليريكا,Pregabalin,antiepileptic,ليريكا مرتين في اليوم؟,dosage,0.95
+INTN0293,فنتولين,Salbutamol,bronchodilator,فنتولين عند الحاجة فقط؟,dosage,0.96
+INTN0294,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب تورم في الرجلين؟,side_effects,0.96
+INTN0295,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيخلي السكر ينزل بسرعة؟,side_effects,0.95
+INTN0296,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين لازم يتاخد على الريق؟,dosage,0.97
+INTN0297,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول أرخص من نيكسيوم؟,price,0.93
+INTN0298,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للفطريات في الفم؟,general_info,0.95
+INTN0299,زولوفت,Sertraline,antidepressant SSRI,زولوفت بياخد وقت عشان يشتغل؟,general_info,0.96
+INTN0300,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع مع كونكور؟,drug_interaction,0.94
+INTN0301,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع لمرضى السكر نوع 2؟,general_info,0.96
+INTN0302,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيأثر على القلب؟,side_effects,0.95
+INTN0303,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع لمدة طويلة؟,contraindication,0.93
+INTN0304,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للمهبل؟,general_info,0.94
+INTN0305,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيسبب زيادة وزن؟,side_effects,0.92
+INTN0306,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب صداع في الأول؟,side_effects,0.94
+INTN0307,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد مع متفورمين أفضل؟,drug_interaction,0.95
+INTN0308,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتاخد قبل الأكل بساعة؟,dosage,0.97
+INTN0309,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود كبسولات وأقراص؟,availability,0.93
+INTN0310,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للفطريات في الجلد؟,general_info,0.94
+INTN0311,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للقلق والاكتئاب؟,general_info,0.96
+INTN0312,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين 5 مجم كفاية في البداية؟,dosage,0.95
+INTN0313,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيسبب انخفاض سكر حاد؟,side_effects,0.94
+INTN0314,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين لكبار السن جرعته أقل؟,contraindication,0.93
+INTN0315,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيأثر على الكالسيوم؟,side_effects,0.92
+INTN0316,ديفلوكان,Fluconazole,antifungal,ديفلوكان مع أدوية القلب آمن؟,drug_interaction,0.93
+INTN0317,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للوسواس القهري؟,general_info,0.95
+INTN0318,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط والقلب؟,general_info,0.96
+INTN0319,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد يتاخد قبل الأكل؟,dosage,0.94
+INTN0320,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين سعره كام؟,price,0.92
+INTN0321,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول أرخص من نيكسيوم بكتير؟,price,0.93
+INTN0322,ديفلوكان,Fluconazole,antifungal,ديفلوكان 150 مجم مرة واحدة؟,dosage,0.95
+INTN0323,زولوفت,Sertraline,antidepressant SSRI,زولوفت بياخد شهر عشان يظهر تأثيره؟,general_info,0.94
+INTN0324,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب احمرار في الوجه؟,side_effects,0.93
+INTN0325,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع مع الرياضة؟,general_info,0.92
+INTN0326,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحتاج تحاليل TSH دورية؟,general_info,0.96
+INTN0327,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع للقولون العصبي؟,general_info,0.91
+INTN0328,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للرجال كمان؟,general_info,0.93
+INTN0329,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيسبب مشاكل في الانتصاب؟,side_effects,0.92
+INTN0330,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود 10 مجم؟,availability,0.94
+INTN0331,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود 4 مجم؟,availability,0.93
+INTN0332,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود 100 ميكروجرام؟,availability,0.95
+INTN0333,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول 20 مجم سعره رخيص؟,price,0.92
+INTN0334,ديفلوكان,Fluconazole,antifungal,ديفلوكان سعره كام؟,price,0.93
+INTN0335,زولوفت,Sertraline,antidepressant SSRI,زولوفت سعره كام تقريبًا؟,price,0.92
+INTN0336,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع لكبار السن؟,contraindication,0.94
+INTN0337,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد خطر على الكلى الضعيفة؟,contraindication,0.95
+INTN0338,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين أثناء الحمل جرعته بتتعدل؟,contraindication,0.96
+INTN0339,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع أثناء الحمل؟,contraindication,0.93
+INTN0340,ديفلوكان,Fluconazole,antifungal,ديفلوكان ممنوع أثناء الحمل؟,contraindication,0.95
+INTN0341,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع أثناء الحمل؟,contraindication,0.92
+INTN0342,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيأثر على الجنين؟,contraindication,0.93
+INTN0343,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع للحوامل؟,contraindication,0.94
+INTN0344,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين مهم جدًا أثناء الحمل؟,general_info,0.96
+INTN0345,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول آمن في الشهور الأولى؟,contraindication,0.92
+INTN0346,ديفلوكان,Fluconazole,antifungal,ديفلوكان يستخدم مرة واحدة بس؟,dosage,0.95
+INTN0347,زولوفت,Sertraline,antidepressant SSRI,زولوفت يتوقف فجأة ولا تدريجي؟,dosage,0.94
+INTN0348,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين يتاخد صباحًا؟,dosage,0.93
+INTN0349,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد مع الإفطار؟,dosage,0.95
+INTN0350,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتاخد كل يوم في نفس المعاد؟,dosage,0.97
+INTN0351,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول قبل الأكل بنص ساعة؟,dosage,0.96
+INTN0352,ديفلوكان,Fluconazole,antifungal,ديفلوكان 200 مجم لعدة أيام؟,dosage,0.94
+INTN0353,زولوفت,Sertraline,antidepressant SSRI,زولوفت 50 مجم جرعة البداية؟,dosage,0.95
+INTN0354,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين 10 مجم سعره كام؟,price,0.92
+INTN0355,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد 3 مجم سعره كام؟,price,0.93
+INTN0356,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين 50 ميكروجرام سعره كام؟,price,0.92
+INTN0357,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول 40 مجم سعره كام؟,price,0.93
+INTN0358,ديفلوكان,Fluconazole,antifungal,ديفلوكان 150 مجم سعره كام؟,price,0.94
+INTN0359,زولوفت,Sertraline,antidepressant SSRI,زولوفت 100 مجم سعره كام؟,price,0.92
+INTN0360,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود في الصيدليات دايمًا؟,availability,0.93
+INTN0361,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود 1 مجم و2 مجم؟,availability,0.94
+INTN0362,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود بكل التركيزات؟,availability,0.95
+INTN0363,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود 20 و40 مجم؟,availability,0.93
+INTN0364,ديفلوكان,Fluconazole,antifungal,ديفلوكان موجود دايمًا؟,availability,0.92
+INTN0365,زولوفت,Sertraline,antidepressant SSRI,زولوفت موجود بتركيزات مختلفة؟,availability,0.93
+INTN0366,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بديل رخيص موجود؟,availability,0.92
+INTN0367,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد سعره رخيص نسبيًا؟,price,0.93
+INTN0368,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود أنواع مستوردة؟,availability,0.94
+INTN0369,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول سعره رخيص جدًا؟,price,0.92
+INTN0370,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للرجال والستات؟,general_info,0.95
+INTN0371,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيحسن المزاج تدريجيًا؟,general_info,0.96
+INTN0372,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للصداع الناتج عن الضغط؟,general_info,0.93
+INTN0373,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج مراقبة السكر يوميًا؟,general_info,0.94
+INTN0374,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الطاقة والتركيز؟,general_info,0.95
+INTN0375,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيقلل الحموضة بسرعة؟,general_info,0.93
+INTN0376,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفطريات المتكررة؟,general_info,0.94
+INTN0377,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد على النوم أحيانًا؟,side_effects,0.92
+INTN0378,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المرتفع جدًا؟,general_info,0.95
+INTN0379,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيسبب جوع زيادة؟,side_effects,0.93
+INTN0380,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحتاج تعديل جرعة كل فترة؟,dosage,0.96
+INTN0381,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود بدون وصفة طبية؟,availability,0.92
+INTN0382,ديفلوكان,Fluconazole,antifungal,ديفلوكان بياخد مرة واحدة للعدوى البسيطة؟,dosage,0.95
+INTN0383,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع لفترة طويلة؟,contraindication,0.93
+INTN0384,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين مع الطعام ولا فاضي؟,dosage,0.94
+INTN0385,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد يتاخد مرة واحدة يوميًا؟,dosage,0.96
+INTN0386,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتجنب القهوة بعده بساعة؟,dosage,0.95
+INTN0387,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول يتاخد صباحًا؟,dosage,0.94
+INTN0388,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفم عند الأطفال؟,contraindication,0.92
+INTN0389,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للمراهقين؟,contraindication,0.93
+INTN0390,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين سعره رخيص نسبيًا؟,price,0.92
+INTN0391,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد سعره معقول؟,price,0.93
+INTN0392,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين سعره رخيص؟,price,0.94
+INTN0393,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب إمساك؟,side_effects,0.93
+INTN0394,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع لكبار السن؟,contraindication,0.94
+INTN0395,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيأثر على الشعر؟,side_effects,0.95
+INTN0396,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيسبب صداع؟,side_effects,0.93
+INTN0397,ديفلوكان,Fluconazole,antifungal,ديفلوكان بيأثر على الكبد؟,side_effects,0.94
+INTN0398,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيسبب تعب في البداية؟,side_effects,0.95
+INTN0399,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المرتفع المفاجئ؟,general_info,0.93
+INTN0400,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج مراقبة السكر يوميًا في الأول؟,dosage,0.96
+INTN0401,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الإرهاق والكسل؟,general_info,0.95
+INTN0402,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بديل رخيص لنيكسيوم؟,general_info,0.94
+INTN0403,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للتوتر والقلق المزمن؟,general_info,0.96
+INTN0404,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين مع الجريب فروت خطر؟,drug_interaction,0.94
+INTN0405,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد مع الكحول خطر؟,drug_interaction,0.95
+INTN0406,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين مع القهوة بيقلل الامتصاص؟,drug_interaction,0.96
+INTN0407,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول مع أدوية الكالسيوم؟,drug_interaction,0.93
+INTN0408,ديفلوكان,Fluconazole,antifungal,ديفلوكان مع أدوية الضغط آمن؟,drug_interaction,0.94
+INTN0409,زولوفت,Sertraline,antidepressant SSRI,زولوفت مع أدوية البرد؟,drug_interaction,0.92
+INTN0410,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين يتخزن في التلاجة؟,dosage,0.91
+INTN0411,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بعد الأكل ولا قبله؟,dosage,0.95
+INTN0412,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتجنب منتجات الألبان بعده؟,dosage,0.96
+INTN0413,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول يتاخد قبل الفطار؟,dosage,0.95
+INTN0414,ديفلوكان,Fluconazole,antifungal,ديفلوكان يتاخد مع الأكل ولا فاضي؟,dosage,0.94
+INTN0415,زولوفت,Sertraline,antidepressant SSRI,زولوفت يتاخد صباحًا أفضل؟,dosage,0.93
+INTN0416,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع لكبار السن فوق 70؟,contraindication,0.92
+INTN0417,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد خطر على مرضى الكلى؟,contraindication,0.95
+INTN0418,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين ينفع للأطفال؟,contraindication,0.93
+INTN0419,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول آمن لكبار السن؟,contraindication,0.94
+INTN0420,ديفلوكان,Fluconazole,antifungal,ديفلوكان ممنوع مع بعض الأدوية المضادة للفطريات؟,contraindication,0.93
+INTN0421,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للمراهقين تحت 18؟,contraindication,0.92
+INTN0422,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين سعره رخيص؟,price,0.93
+INTN0423,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين سعره رخيص نسبيًا؟,price,0.94
+INTN0424,ديفلوكان,Fluconazole,antifungal,ديفلوكان سعره غالي شوية؟,price,0.92
+INTN0425,زولوفت,Sertraline,antidepressant SSRI,زولوفت سعره معقول؟,price,0.93
+INTN0426,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود بكل الصيدليات؟,availability,0.94
+INTN0427,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود دايمًا؟,availability,0.93
+INTN0428,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود بتركيزات كتير؟,availability,0.95
+INTN0429,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود بدون وصفة؟,availability,0.92
+INTN0430,ديفلوكان,Fluconazole,antifungal,ديفلوكان موجود 150 مجم دايمًا؟,availability,0.94
+INTN0431,زولوفت,Sertraline,antidepressant SSRI,زولوفت موجود بسهولة؟,availability,0.93
+INTN0432,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بديل رخيص زي أملوديب؟,availability,0.92
+INTN0433,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود أنواع جنريك؟,availability,0.93
+INTN0434,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود أنواع مستوردة ومحلية؟,availability,0.94
+INTN0435,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود 20 مجم و40 مجم؟,availability,0.93
+INTN0436,ديفلوكان,Fluconazole,antifungal,ديفلوكان موجود دايمًا في الصيدليات الكبيرة؟,availability,0.92
+INTN0437,زولوفت,Sertraline,antidepressant SSRI,زولوفت موجود بكل التركيزات؟,availability,0.93
+INTN0438,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المرتفع المزمن؟,general_info,0.95
+INTN0439,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحسن السيطرة على السكر؟,general_info,0.94
+INTN0440,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن النشاط والتركيز؟,general_info,0.96
+INTN0441,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيقلل الحرقان والحموضة؟,general_info,0.95
+INTN0442,ديفلوكان,Fluconazole,antifungal,ديفلوكان بيعالج العدوى الفطرية بسرعة؟,general_info,0.94
+INTN0443,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في تحسين المزاج تدريجيًا؟,general_info,0.95
+INTN0444,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج نظام غذائي معاه؟,general_info,0.94
+INTN0445,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الوزن والطاقة؟,general_info,0.92
+INTN0446,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع لقرحة المعدة؟,general_info,0.96
+INTN0447,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى المهبل المتكررة؟,general_info,0.95
+INTN0448,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع لاضطراب ما بعد الصدمة؟,general_info,0.93
+INTN0449,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيقلل خطر الجلطات؟,general_info,0.92
+INTN0450,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحسن حساسية الإنسولين؟,general_info,0.94
+INTN0451,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الشعر والأظافر؟,side_effects,0.91
+INTN0452,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيمنع تقرحات المعدة؟,general_info,0.95
+INTN0453,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفم عند مرضى السكر؟,general_info,0.93
+INTN0454,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في القلق الاجتماعي؟,general_info,0.94
+INTN0455,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب تورم خفيف في الساقين؟,side_effects,0.95
+INTN0456,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيسبب هبوط سكر لو مأكلتش؟,side_effects,0.96
+INTN0457,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين جرعة زيادة بتسبب خفقان؟,side_effects,0.95
+INTN0458,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول استخدام طويل بيسبب نقص مغنيسيوم؟,side_effects,0.93
+INTN0459,ديفلوكان,Fluconazole,antifungal,ديفلوكان بيأثر على الكبد لو استخدم كتير؟,side_effects,0.94
+INTN0460,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيسبب إسهال في الأول؟,side_effects,0.92
+INTN0461,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود جنريك رخيص؟,availability,0.93
+INTN0462,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود جنريك؟,availability,0.94
+INTN0463,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود أنواع كتير؟,availability,0.95
+INTN0464,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود جنريك رخيص؟,availability,0.93
+INTN0465,ديفلوكان,Fluconazole,antifungal,ديفلوكان موجود جنريك؟,availability,0.92
+INTN0466,زولوفت,Sertraline,antidepressant SSRI,زولوفت موجود جنريك رخيص؟,availability,0.93
+INTN0467,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المصاحب للسكر؟,general_info,0.95
+INTN0468,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع مع نظام غذائي فقط؟,general_info,0.93
+INTN0469,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الاكتئاب الناتج عن الغدة؟,general_info,0.94
+INTN0470,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع لالتهاب المعدة؟,general_info,0.95
+INTN0471,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الأظافر؟,general_info,0.92
+INTN0472,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للاكتئاب الموسمي؟,general_info,0.93
+INTN0473,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيقلل خطر الجلطة الدماغية؟,general_info,0.94
+INTN0474,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج فحوصات دورية؟,general_info,0.95
+INTN0475,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن البرود والكسل؟,general_info,0.94
+INTN0476,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع للارتجاع المريئي المزمن؟,general_info,0.96
+INTN0477,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفطريات في الجلد؟,general_info,0.93
+INTN0478,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في الوسواس القهري؟,general_info,0.94
+INTN0479,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين مع البروبوفين آمن؟,drug_interaction,0.92
+INTN0480,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد مع أدوية الضغط؟,drug_interaction,0.93
+INTN0481,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين مع أدوية الكالسيوم؟,drug_interaction,0.95
+INTN0482,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول مع أدوية الغدة الدرقية؟,drug_interaction,0.92
+INTN0483,ديفلوكان,Fluconazole,antifungal,ديفلوكان مع أدوية المناعة؟,drug_interaction,0.93
+INTN0484,زولوفت,Sertraline,antidepressant SSRI,زولوفت مع أدوية الصداع النصفي؟,drug_interaction,0.92
+INTN0485,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين يتاخد مع الطعام؟,dosage,0.94
+INTN0486,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد يتاخد مع الإفطار؟,dosage,0.95
+INTN0487,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتاخد على الريق صباحًا؟,dosage,0.97
+INTN0488,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول يتاخد قبل الأكل بنص ساعة؟,dosage,0.96
+INTN0489,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيسبب تورم في القدمين شائع؟,side_effects,0.95
+INTN0490,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيسبب هبوط سكر لو مأكلتش كويس؟,side_effects,0.96
+INTN0491,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيسبب خفقان لو الجرعة زيادة؟,side_effects,0.95
+INTN0492,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول استخدام طويل بيسبب نقص فيتامينات؟,side_effects,0.93
+INTN0493,ديفلوكان,Fluconazole,antifungal,ديفلوكان بيأثر على الكبد لو استخدم متكرر؟,side_effects,0.94
+INTN0494,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيسبب زيادة الشهية أحيانًا؟,side_effects,0.92
+INTN0495,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المرتفع مع السكر؟,general_info,0.95
+INTN0496,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحسن السيطرة على السكر مع الرياضة؟,general_info,0.94
+INTN0497,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الشعر والطاقة مع الوقت؟,general_info,0.93
+INTN0498,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيقلل الارتجاع والحرقان بفعالية؟,general_info,0.96
+INTN0499,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفطريات في الأظافر؟,general_info,0.92
+INTN0500,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في علاج الاكتئاب المزمن؟,general_info,0.95
+INTN0501,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين مع أدوية السكر آمن؟,drug_interaction,0.94
+INTN0502,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد مع أدوية الضغط يحتاج مراقبة؟,drug_interaction,0.93
+INTN0503,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين مع مكملات الحديد؟,drug_interaction,0.95
+INTN0504,ديفلوكان,Fluconazole,antifungal,ديفلوكان مع أدوية المناعة خطر؟,drug_interaction,0.93
+INTN0505,زولوفت,Sertraline,antidepressant SSRI,زولوفت مع مسكنات الألم؟,drug_interaction,0.92
+INTN0506,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين يتخزن في درجة حرارة الغرفة؟,dosage,0.94
+INTN0507,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد يتخزن بعيد عن الحرارة؟,dosage,0.93
+INTN0508,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتجنب التعرض للضوء؟,dosage,0.92
+INTN0509,ديفلوكان,Fluconazole,antifungal,ديفلوكان يتاخد مرة واحدة في معظم الحالات؟,dosage,0.95
+INTN0510,زولوفت,Sertraline,antidepressant SSRI,زولوفت يتاخد صباحًا عشان ميأثرش على النوم؟,dosage,0.93
+INTN0511,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع لمرضى القلب والضغط؟,general_info,0.96
+INTN0512,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع مع النظام الغذائي فقط؟,general_info,0.94
+INTN0513,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الأعراض خلال أسابيع؟,general_info,0.95
+INTN0514,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيعالج التهاب المريء؟,general_info,0.96
+INTN0515,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الجلد الفطرية؟,general_info,0.93
+INTN0516,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في اضطراب الهلع؟,general_info,0.94
+INTN0517,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيقلل خطر السكتة الدماغية؟,general_info,0.93
+INTN0518,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج فحص السكر الدوري؟,general_info,0.95
+INTN0519,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن التركيز والذاكرة؟,general_info,0.92
+INTN0520,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع لقرحة الاثني عشر؟,general_info,0.96
+INTN0521,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفطريات في الفم؟,general_info,0.94
+INTN0522,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في الاكتئاب بعد الولادة؟,general_info,0.93
+INTN0523,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود بأسعار معقولة؟,price,0.93
+INTN0524,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود جنريك رخيص؟,price,0.94
+INTN0525,ديفلوكان,Fluconazole,antifungal,ديفلوكان 150 مجم سعره معقول؟,price,0.92
+INTN0526,زولوفت,Sertraline,antidepressant SSRI,زولوفت سعره معقول نسبيًا؟,price,0.93
+INTN0527,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع للضغط المرتفع المصاحب للسمنة؟,general_info,0.94
+INTN0528,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحسن جودة الحياة لمرضى السكر؟,general_info,0.93
+INTN0529,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن الأعراض خلال شهر؟,general_info,0.95
+INTN0530,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيمنع تكرار الحموضة؟,general_info,0.94
+INTN0531,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الفطريات بعد المضادات الحيوية؟,general_info,0.93
+INTN0532,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في القلق المعمم؟,general_info,0.95
+INTN0533,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيقلل الصداع الناتج عن الضغط؟,general_info,0.92
+INTN0534,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع مع تغيير نمط الحياة؟,general_info,0.94
+INTN0535,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن البرود والإرهاق المزمن؟,general_info,0.95
+INTN0536,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول ينفع لالتهاب المعدة المزمن؟,general_info,0.96
+INTN0537,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع لعدوى الجلد البسيطة؟,general_info,0.93
+INTN0538,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في اضطرابات النوم المرتبطة بالاكتئاب؟,general_info,0.92
+INTN0539,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين مع الطعام الدسم آمن؟,dosage,0.93
+INTN0540,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد يتاخد مع وجبة الإفطار؟,dosage,0.95
+INTN0541,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يتاخد 30-60 دقيقة قبل الأكل؟,dosage,0.97
+INTN0542,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول يتاخد على الريق صباحًا؟,dosage,0.96
+INTN0543,ديفلوكان,Fluconazole,antifungal,ديفلوكان يتاخد مع أو بدون طعام؟,dosage,0.94
+INTN0544,زولوفت,Sertraline,antidepressant SSRI,زولوفت يتاخد صباحًا عشان ميسببش أرق؟,dosage,0.93
+INTN0545,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع لكبار السن فوق 65 سنة؟,contraindication,0.92
+INTN0546,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد خطر على مرضى الكبد؟,contraindication,0.94
+INTN0547,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين يحتاج تعديل جرعة عند كبار السن؟,contraindication,0.93
+INTN0548,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول استخدام طويل عند كبار السن؟,contraindication,0.92
+INTN0549,ديفلوكان,Fluconazole,antifungal,ديفلوكان ينفع للأطفال فوق سن معين؟,contraindication,0.93
+INTN0550,زولوفت,Sertraline,antidepressant SSRI,زولوفت ينفع للأطفال والمراهقين بحذر؟,contraindication,0.92
+INTN0551,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود بتركيز 5 و10 مجم؟,availability,0.94
+INTN0552,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود 1 و2 و3 و4 مجم؟,availability,0.93
+INTN0553,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود 25 و50 و100 ميكروجرام؟,availability,0.95
+INTN0554,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول موجود 20 و40 مجم بكثرة؟,availability,0.94
+INTN0555,ديفلوكان,Fluconazole,antifungal,ديفلوكان 150 مجم موجود في معظم الصيدليات؟,availability,0.93
+INTN0556,زولوفت,Sertraline,antidepressant SSRI,زولوفت 50 مجم موجود بسهولة؟,availability,0.92
+INTN0557,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين سعره رخيص ومتوفر؟,price,0.93
+INTN0558,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين سعره رخيص ومضمون؟,price,0.94
+INTN0559,زولوفت,Sertraline,antidepressant SSRI,زولوفت سعره معقول للاستخدام الطويل؟,price,0.93
+INTN0560,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين ينفع كعلاج أولي للضغط؟,general_info,0.95
+INTN0561,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيستخدم مع متفورمين غالبًا؟,general_info,0.94
+INTN0562,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين علاج أساسي لنقص الغدة؟,general_info,0.96
+INTN0563,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول من أشهر أدوية الحموضة؟,general_info,0.95
+INTN0564,ديفلوكان,Fluconazole,antifungal,ديفلوكان من أشهر مضادات الفطريات؟,general_info,0.94
+INTN0565,زولوفت,Sertraline,antidepressant SSRI,زولوفت من الأدوية الشائعة للاكتئاب؟,general_info,0.95
+INTN0566,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين بيقلل خطر الجلطات القلبية؟,general_info,0.93
+INTN0567,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيساعد في السيطرة طويلة الأمد على السكر؟,general_info,0.94
+INTN0568,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين بيحسن جودة الحياة بشكل كبير؟,general_info,0.95
+INTN0569,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول بيمنع تكرار القرحة؟,general_info,0.94
+INTN0570,ديفلوكان,Fluconazole,antifungal,ديفلوكان يعالج معظم حالات العدوى الفطرية البسيطة؟,general_info,0.93
+INTN0571,زولوفت,Sertraline,antidepressant SSRI,زولوفت بيساعد في تحسين جودة الحياة لمرضى الاكتئاب؟,general_info,0.94
+INTN0572,أملوديبين,Amlodipine,calcium channel blocker,أملوديبين موجود في كل الصيدليات تقريبًا؟,availability,0.95
+INTN0573,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد موجود بكثرة في مصر؟,availability,0.94
+INTN0574,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين موجود دايمًا؟,availability,0.96
+INTN0575,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول من أكثر الأدوية توفرًا؟,availability,0.95
+INTN0576,ديفلوكان,Fluconazole,antifungal,ديفلوكان موجود في معظم الصيدليات؟,availability,0.93
+INTN0577,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد سعره رخيص ومناسب؟,price,0.92
+INTN0578,ليفوثيروكسين,Levothyroxine,thyroid,ليفوثيروكسين سعره رخيص جدًا؟,price,0.94
+INTN0579,أوميبرازول,Omeprazole,proton pump inhibitor,أوميبرازول سعره رخيص ومناسب للاستخدام الطويل؟,price,0.93
+INTN0580,كونكور,Bisoprolol,beta blocker,كونكور بياخد كام مرة في اليوم عادة؟,dosage,0.97
+INTN0581,كوزار,Losartan,angiotensin receptor blocker,كوزار بيأثر على الكلى ولا بيحميها؟,general_info,0.96
+INTN0582,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيسبب تورم في الرجلين كتير؟,side_effects,0.95
+INTN0583,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيخلي السكر ينزل لو مأكلتش؟,side_effects,0.96
+INTN0584,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد كام يوم لالتهاب الحلق؟,dosage,0.97
+INTN0585,بانادول,Paracetamol,analgesic,بانادول نايت بيسبب نعاس قوي؟,side_effects,0.94
+INTN0586,بروفين,Ibuprofen,nsaid,بروفين 600 ينفع لوجع الظهر الشديد؟,dosage,0.95
+INTN0587,سنجولار,Montelukast,antiasthmatic,سنجولار ينفع للأطفال من سن كام؟,contraindication,0.96
+INTN0588,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الأعصاب بعد العمليات؟,general_info,0.95
+INTN0589,هارنال,Tamsulosin,alpha blocker,هارنال بيخلي التبول أسهل عند كبار السن؟,general_info,0.96
+INTN0590,زيرتيك,Cetirizine,antihistamine,زيرتيك بيسبب نعاس أقل من الجيل القديم؟,side_effects,0.94
+INTN0591,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيعلاج الحموضة بسرعة؟,general_info,0.96
+INTN0592,كارديك,Bisoprolol,beta blocker,كارديك بياخد مرة واحدة يوميًا؟,dosage,0.95
+INTN0593,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا بيساعد في خسارة الوزن؟,side_effects,0.93
+INTN0594,كريستور,Rosuvastatin,statin,كريستور بيقلل الكوليسترول بقوة؟,general_info,0.96
+INTN0595,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ينفع لالتهاب المسالك البولية؟,general_info,0.95
+INTN0596,موتيليوم,Domperidone,antiemetic,موتيليوم بيستخدم للغثيان والقيء؟,general_info,0.96
+INTN0597,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ ينفع يوميًا للربو المزمن؟,dosage,0.94
+INTN0598,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للحساسية الموسمية في الربيع؟,general_info,0.95
+INTN0599,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال شراب جرعته حسب الوزن؟,dosage,0.97
+INTN0600,كونكور,Bisoprolol,beta blocker,كونكور بيبطئ ضربات القلب، ده خطر؟,side_effects,0.94
+INTN0601,كوزار,Losartan,angiotensin receptor blocker,كوزار بلس أقوى من كوزار العادي؟,general_info,0.95
+INTN0602,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيسبب احمرار في الوجه؟,side_effects,0.93
+INTN0603,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد ينفع مع متفورمين مع بعض؟,drug_interaction,0.96
+INTN0604,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بيسبب إسهال عند الأطفال؟,side_effects,0.94
+INTN0605,بانادول,Paracetamol,analgesic,بانادول إكسترا أقوى من العادي للوجع؟,general_info,0.95
+INTN0606,بروفين,Ibuprofen,nsaid,بروفين ينفع لالتهاب المفاصل عند كبار السن؟,general_info,0.94
+INTN0607,ليريكا,Pregabalin,antiepileptic,ليريكا بيسبب دوخة وزيادة وزن؟,side_effects,0.93
+INTN0608,هارنال,Tamsulosin,alpha blocker,هارنال بيأثر على الضغط ولا لأ؟,side_effects,0.94
+INTN0609,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للأطفال من سن كام؟,contraindication,0.95
+INTN0610,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بياخد فترة طويلة لعلاج القرحة؟,dosage,0.94
+INTN0611,كارديك,Bisoprolol,beta blocker,كارديك موجود 5 مجم و10 مجم؟,availability,0.93
+INTN0612,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا بيساعد في إنقاص الوزن لمرضى السكر؟,side_effects,0.94
+INTN0613,كريستور,Rosuvastatin,statin,كريستور بياخد قبل النوم أفضل؟,dosage,0.95
+INTN0614,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ممنوع مع بعض الأدوية؟,contraindication,0.96
+INTN0615,موتيليوم,Domperidone,antiemetic,موتيليوم ينفع للحموضة والغثيان؟,general_info,0.94
+INTN0616,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع للأطفال أقل من 4 سنين؟,contraindication,0.93
+INTN0617,كلاريتين,Loratadine,antihistamine,كلاريتين بيسبب نعاس أقل من زيرتيك؟,side_effects,0.92
+INTN0618,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال ينفع للحمى بعد التطعيم؟,general_info,0.96
+INTN0619,كونكور,Bisoprolol,beta blocker,كونكور بيستخدم بعد الجلطة القلبية؟,general_info,0.95
+INTN0620,كوزار,Losartan,angiotensin receptor blocker,كوزار بيحمي الكلى عند مرضى السكر؟,general_info,0.96
+INTN0621,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيقلل خطر السكتة الدماغية؟,general_info,0.94
+INTN0622,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج فحص كلى دوري؟,contraindication,0.93
+INTN0623,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد 7 أيام كاملة؟,dosage,0.96
+INTN0624,بانادول,Paracetamol,analgesic,بانادول ينفع مع أدوية البرد؟,drug_interaction,0.95
+INTN0625,سنجولار,Montelukast,antiasthmatic,سنجولار بياخد وقت طويل عشان يظهر تأثيره؟,dosage,0.94
+INTN0626,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الاعصاب السكرية؟,general_info,0.96
+INTN0627,هارنال,Tamsulosin,alpha blocker,هارنال بيحسن التبول الليلي عند كبار السن؟,general_info,0.95
+INTN0628,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للحساسية من التراب والغبار؟,general_info,0.94
+INTN0629,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بياخد قبل الأكل أو بعده؟,dosage,0.95
+INTN0630,كارديك,Bisoprolol,beta blocker,كارديك بيقلل ضربات القلب الزائدة؟,general_info,0.96
+INTN0631,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا بيطلع السكر مع البول؟,general_info,0.93
+INTN0632,كريستور,Rosuvastatin,statin,كريستور بيمنع تصلب الشرايين؟,general_info,0.95
+INTN0633,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ينفع لالتهاب الجيوب الأنفية؟,general_info,0.94
+INTN0634,موتيليوم,Domperidone,antiemetic,موتيليوم بيحسن حركة المعدة؟,general_info,0.93
+INTN0635,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع قبل الرياضة للربو؟,dosage,0.96
+INTN0636,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للعطس والرشح التحسسي؟,general_info,0.95
+INTN0637,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال ينفع لوجع الأذن؟,general_info,0.94
+INTN0638,كونكور,Bisoprolol,beta blocker,كونكور بيستخدم في علاج قصور القلب؟,general_info,0.95
+INTN0639,كوزار,Losartan,angiotensin receptor blocker,كوزار بيقلل خطر الجلطات عند مرضى السكر؟,general_info,0.94
+INTN0640,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيحسن الدورة الدموية؟,general_info,0.93
+INTN0641,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج تجنب القيادة لو حصل هبوط سكر؟,side_effects,0.94
+INTN0642,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد مع الاكل عشان المعدة؟,dosage,0.95
+INTN0643,بانادول,Paracetamol,analgesic,بانادول ينفع للحمى عند كبار السن؟,general_info,0.96
+INTN0644,بروفين,Ibuprofen,nsaid,بروفين بيأثر على المعدة أكتر من بانادول؟,side_effects,0.95
+INTN0645,سنجولار,Montelukast,antiasthmatic,سنجولار بيمنع نوبات الربو الليلية؟,general_info,0.94
+INTN0646,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الظهر المزمنة؟,general_info,0.93
+INTN0647,هارنال,Tamsulosin,alpha blocker,هارنال بيحسن التبول عند مرضى البروستاتا؟,general_info,0.96
+INTN0648,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للحساسية من أكل معين؟,general_info,0.94
+INTN0649,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بيقلل خطر قرحة المعدة عند استخدام البروفين؟,general_info,0.95
+INTN0650,كارديك,Bisoprolol,beta blocker,كارديك بياخد مع أدوية الضغط الأخرى؟,drug_interaction,0.93
+INTN0651,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا بيطلع السكر في البول ويحمي الكلى؟,general_info,0.94
+INTN0652,كريستور,Rosuvastatin,statin,كريستور بياخد مع الاكل ولا فاضي؟,dosage,0.95
+INTN0653,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ممنوع للأطفال تحت سن 18؟,contraindication,0.96
+INTN0654,موتيليوم,Domperidone,antiemetic,موتيليوم ينفع للغثيان أثناء الحمل؟,contraindication,0.92
+INTN0655,فنتولين,Salbutamol,bronchodilator,فنتولين بخاخ ينفع للأطفال الصغيرين؟,contraindication,0.93
+INTN0656,كلاريتين,Loratadine,antihistamine,كلاريتين بيسبب جفاف الفم؟,side_effects,0.92
+INTN0657,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال ينفع لوجع الاسنان عند الأطفال؟,general_info,0.95
+INTN0658,كونكور,Bisoprolol,beta blocker,كونكور بيقلل خطر الجلطة القلبية؟,general_info,0.94
+INTN0659,كوزار,Losartan,angiotensin receptor blocker,كوزار بيقلل البروتين في البول؟,general_info,0.93
+INTN0660,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيحسن أعراض الذبحة الصدرية؟,general_info,0.94
+INTN0661,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج مراقبة السكر في الدم يوميًا في الأول؟,dosage,0.95
+INTN0662,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد 10 أيام لالتهاب الأذن؟,dosage,0.94
+INTN0663,بانادول,Paracetamol,analgesic,بانادول ينفع للحمى الناتجة عن البرد؟,general_info,0.96
+INTN0664,بروفين,Ibuprofen,nsaid,بروفين بيقلل الالتهاب بعد الإصابات الرياضية؟,general_info,0.95
+INTN0665,سنجولار,Montelukast,antiasthmatic,سنجولار بيمنع الصفير والضيق في الصدر؟,general_info,0.94
+INTN0666,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الأعصاب بعد الهربس؟,general_info,0.93
+INTN0667,هارنال,Tamsulosin,alpha blocker,هارنال بيأخذ قبل النوم عشان يحسن التبول الليلي؟,dosage,0.95
+INTN0668,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للحساسية من شعر القطط؟,general_info,0.94
+INTN0669,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بياخد شهر كامل لعلاج الارتجاع؟,dosage,0.93
+INTN0670,كارديك,Bisoprolol,beta blocker,كارديك موجود في الصيدليات بكثرة؟,availability,0.92
+INTN0671,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا سعره غالي ولا معقول؟,price,0.93
+INTN0672,كريستور,Rosuvastatin,statin,كريستور بياخد مرة واحدة يوميًا؟,dosage,0.96
+INTN0673,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ينفع لالتهاب البروستاتا؟,general_info,0.94
+INTN0674,موتيليوم,Domperidone,antiemetic,موتيليوم بيحسن الهضم والغثيان؟,general_info,0.95
+INTN0675,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع للربو الناتج عن البرد؟,general_info,0.94
+INTN0676,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للحساسية من حبوب اللقاح؟,general_info,0.95
+INTN0677,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال ينفع للحمى بعد التطعيمات؟,general_info,0.96
+INTN0678,كونكور,Bisoprolol,beta blocker,كونكور بيقلل خطر الوفاة بعد الجلطة؟,general_info,0.94
+INTN0679,كوزار,Losartan,angiotensin receptor blocker,كوزار بيقلل البروتين في البول عند مرضى الكلى؟,general_info,0.95
+INTN0680,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيحسن أعراض ضيق التنفس الناتج عن الضغط؟,general_info,0.93
+INTN0681,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد 5 أيام لالتهابات خفيفة؟,dosage,0.94
+INTN0682,بانادول,Paracetamol,analgesic,بانادول ينفع لوجع الرأس الناتج عن التوتر؟,general_info,0.96
+INTN0683,بروفين,Ibuprofen,nsaid,بروفين بيقلل الالتهاب بعد خلع ضرس؟,general_info,0.95
+INTN0684,سنجولار,Montelukast,antiasthmatic,سنجولار بيمنع نوبات الربو أثناء الرياضة؟,general_info,0.94
+INTN0685,ليريكا,Pregabalin,antiepileptic,ليريكا بيستخدم لآلام الاعصاب الناتجة عن السكر؟,general_info,0.96
+INTN0686,هارنال,Tamsulosin,alpha blocker,هارنال بيحسن جودة النوم عند مرضى البروستاتا؟,general_info,0.93
+INTN0687,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للحساسية من الطعام؟,general_info,0.92
+INTN0688,نيكسيوم,Esomeprazole,proton pump inhibitor,نيكسيوم بياخد شهرين لعلاج الارتجاع المزمن؟,dosage,0.94
+INTN0689,كارديك,Bisoprolol,beta blocker,كارديك موجود في معظم الصيدليات؟,availability,0.93
+INTN0690,فورسيجا,Dapagliflozin,antidiabetic,فورسيجا سعره غالي شوية؟,price,0.92
+INTN0691,كريستور,Rosuvastatin,statin,كريستور بياخد مع الاكل عشان الكبد؟,dosage,0.95
+INTN0692,سيبروكسين,Ciprofloxacin,antibiotic,سيبروكسين ينفع لالتهاب اللوزتين؟,general_info,0.94
+INTN0693,موتيليوم,Domperidone,antiemetic,موتيليوم بيستخدم للغثيان أثناء السفر؟,general_info,0.93
+INTN0694,فنتولين,Salbutamol,bronchodilator,فنتولين ينفع قبل التمارين الرياضية؟,dosage,0.96
+INTN0695,كلاريتين,Loratadine,antihistamine,كلاريتين ينفع للحساسية من شعر الحيوانات؟,general_info,0.95
+INTN0696,بانادول أطفال,Paracetamol,analgesic,بانادول أطفال ينفع لوجع الأذن عند الأطفال؟,general_info,0.94
+INTN0697,كونكور,Bisoprolol,beta blocker,كونكور بيقلل خطر الجلطة بعد الجلطة الأولى؟,general_info,0.95
+INTN0698,كوزار,Losartan,angiotensin receptor blocker,كوزار بيحمي القلب والكلى مع بعض؟,general_info,0.96
+INTN0699,نورفاسك,Amlodipine,calcium channel blocker,نورفاسك بيحسن الدورة الدموية في الساقين؟,general_info,0.93
+INTN0700,جليمبرايد,Glimepiride,antidiabetic,جليمبرايد بيحتاج مراقبة السكر يوميًا في البداية؟,dosage,0.95
+INTN0701,أوجمنتين,Amoxicillin-Clavulanate,antibiotic,أوجمنتين بياخد 10 أيام لالتهاب الأذن الوسطى؟,dosage,0.94
+INTN0702,بانادول,Paracetamol,analgesic,بانادول ينفع للحمى الناتجة عن البرد والإنفلونزا؟,general_info,0.96
+INTN0703,سنجولار,Montelukast,antiasthmatic,سنجولار بيمنع نوبات الربو أثناء الربيع؟,general_info,0.94
+INTN0704,زيرتيك,Cetirizine,antihistamine,زيرتيك ينفع للحساسية من الطعام والغبار مع بعض؟,general_info,0.94

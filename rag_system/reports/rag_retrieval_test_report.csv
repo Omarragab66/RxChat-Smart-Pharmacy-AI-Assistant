@@ -1,0 +1,158 @@
+﻿query,detected_drug,match_score,scope,rank,retrieved_drug,section,retrieval_score,text_preview
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,1,بانادول,pediatric,0.49354200326021935,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: pediatric
+
+الأطفال / Pediatric use
+كلمات بحث مساعدة: أطفال، طفل، رضيع، سن، وزن، pediatric
+Use with caution in children under 2 years of age. Consult healthcare provider for appropriate dosing."
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,2,بانادول,pregnancy,0.48444064907358775,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: pregnancy
+
+الحمل والرضاعة / Pregnancy and lactation
+كلمات بحث مساعدة: حامل، حمل، رضاعة، breastfeeding، pregnancy
+Category B: Animal reproduction studies have failed to demonstrate a risk to the fetu"
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,3,بانادول,dosage,0.41473141843327765,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: dosage
+
+الجرعة وطريقة الاستخدام / Dosage
+كلمات بحث مساعدة: جرعة، الجرعة، طريقة الاستخدام، كام مرة، قبل الأكل، بعد الأكل، dose
+500mg every 4-6 hours; Maximum daily dose: 4g for adults. Renal/hepatic "
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,4,بانادول,overdose,0.4119731850732165,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: overdose
+
+الجرعة الزائدة / Overdose
+كلمات بحث مساعدة: جرعة زائدة، تسمم، أخدت كتير، overdose، طوارئ
+Symptoms: nausea, vomiting, diaphoresis, abdominal pain, metabolic acidosis, hepatic injury. Manage"
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,5,بانادول,warnings,0.4088003569103814,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: warnings
+
+التحذيرات والاحتياطات / Warnings and precautions
+كلمات بحث مساعدة: تحذيرات، احتياطات، خطر، ممنوع، warning
+Risk of liver damage with overuse or overdose. Do not exceed recommended dosage."
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,6,بانادول,indications,0.4070005415807068,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: indications
+
+الاستخدامات / Indications
+كلمات بحث مساعدة: دواعي الاستعمال، الاستخدامات، بيتاخد ليه، علاج، indication
+Treatment of fever, mild to moderate pain"
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,7,بانادول,side_effects,0.40612879348977987,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: side_effects
+
+الأعراض الجانبية / Adverse reactions / Side effects
+كلمات بحث مساعدة: أعراض جانبية، أضرار، آثار جانبية، side effects
+Nausea, vomiting, rash, allergic reactions, liver damage (rare but "
+ما هي جرعة بانادول اطفال؟,بانادول,100,drug_specific,8,بانادول,overview,0.3973387601091482,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: overview
+
+اسم الدواء: بانادول
+الاسم العلمي / المادة الفعالة: Paracetamol
+الفئة الدوائية: analgesic
+الشكل الدوائي والتركيز: 500mg tablet
+طريقة الاستخدام / Route: oral
+متوفر في مصر: نعم
+مصادر البيانات"
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,1,بروفين,dosage,0.14862131039608992,"Therefore, when treating patients with 3200 mg/day, the physician should observe sufficient increased clinical benefits to offset potential increased risk. The dose should be tailored to each patient, and may be lowered or raised depending on the severity of symptoms either at time of initiating dru"
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,2,بروفين,side_effects,0.1466209356084363,Reported side effects were higher at doses of 3200 mg/day than at doses of 2400 mg or less per day in clinical trials of patients with rheumatoid arthritis. The increases in incidence were slight and still within the ranges reported in the table. Incidence Greater than 1% (but less than 3%) Probable
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,3,بروفين,warnings,0.11281530028687725,"Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, "
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,4,بروفين,overdose,0.07470640607089209,"In two other reported cases where children (each weighing approximately 10 kg) accidentally, acutely ingested approximately 120 mg/kg, there were no signs of acute intoxication or late sequelae. Blood level in one child 90 minutes after ingestion was 700 mcg/mL — about 10 times the peak levels seen "
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,5,بروفين,side_effects,0.07329939359806006,"دواء: بروفين | Generic: Ibuprofen | Class: nsaid | Form: 400mg tablet | Route: oral | Section: side_effects
+
+الأعراض الجانبية / Adverse reactions / Side effects
+كلمات بحث مساعدة: أعراض جانبية، أضرار، آثار جانبية، side effects
+ADVERSE REACTIONS The most frequent type of adverse reaction occurring wit"
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,6,بروفين,warnings,0.06217119766728774,"دواء: بروفين | Generic: Ibuprofen | Class: nsaid | Form: 400mg tablet | Route: oral | Section: warnings
+
+التحذيرات والاحتياطات / Warnings and precautions
+كلمات بحث مساعدة: تحذيرات، احتياطات، خطر، ممنوع، warning
+WARNINGS Cardiovascular Effects Cardiovascular Thrombotic Events Clinical trials of sever"
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,7,بروفين,pregnancy,0.06009928893840496,"Serious Skin Reactions, including DRESS Advise patients to stop taking ibuprofen tablets immediately if they develop any type of rash or fever and to contact their healthcare provider as soon as possible [ see Warnings ]. Heart Failure And Edema Advise patients to be alert for the symptoms of conges"
+ينفع اخد بروفين مع الضغط؟,بروفين,100,drug_specific,8,بروفين,mechanism,0.05583465255674586,"دواء: بروفين | Generic: Ibuprofen | Class: nsaid | Form: 400mg tablet | Route: oral | Section: mechanism
+
+آلية العمل / Mechanism of action
+كلمات بحث مساعدة: آلية العمل، بيشتغل إزاي، mechanism
+Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that works by blocking the enzyme cyclooxygenase "
+ايه اعراض كونجستال الجانبية؟,,0,global,1,زينتيل,side_effects,0.4499179756632186,These symptoms were usually mild and resolved without treatment. Treatment discontinuations were predominantly due to leukopenia (0.7%) or hepatic abnormalities (3.8% in hydatid disease). The following incidence reflects adverse reactions that were reported to be at least possibly or probably relate
+ايه اعراض كونجستال الجانبية؟,,0,global,2,نوروفين,warnings,0.4446744251145945,"Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, "
+ايه اعراض كونجستال الجانبية؟,,0,global,3,بروفين,warnings,0.43119132190567383,"Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, "
+ايه اعراض كونجستال الجانبية؟,,0,global,4,أدفيل,warnings,0.42918517821492425,"Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, "
+ايه اعراض كونجستال الجانبية؟,,0,global,5,فلاجيل,warnings,0.4229356264050957,"CNS symptoms are generally reversible within days to weeks upon discontinuation of metronidazole. CNS lesions seen on MRI have also been described as reversible. Peripheral neuropathy, mainly of sensory type has been reported and is characterized by numbness or paresthesia of an extremity. Convulsiv"
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,1,بانادول,dosage,0.12728076173849107,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: dosage
+
+الجرعة وطريقة الاستخدام / Dosage
+كلمات بحث مساعدة: جرعة، الجرعة، طريقة الاستخدام، كام مرة، قبل الأكل، بعد الأكل، dose
+500mg every 4-6 hours; Maximum daily dose: 4g for adults. Renal/hepatic "
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,2,بانادول,side_effects,0.12135661669167143,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: side_effects
+
+الأعراض الجانبية / Adverse reactions / Side effects
+كلمات بحث مساعدة: أعراض جانبية، أضرار، آثار جانبية، side effects
+Nausea, vomiting, rash, allergic reactions, liver damage (rare but "
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,3,بانادول,overdose,0.12128655498474156,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: overdose
+
+الجرعة الزائدة / Overdose
+كلمات بحث مساعدة: جرعة زائدة، تسمم، أخدت كتير، overdose، طوارئ
+Symptoms: nausea, vomiting, diaphoresis, abdominal pain, metabolic acidosis, hepatic injury. Manage"
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,4,بانادول,warnings,0.11051305711228415,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: warnings
+
+التحذيرات والاحتياطات / Warnings and precautions
+كلمات بحث مساعدة: تحذيرات، احتياطات، خطر، ممنوع، warning
+Risk of liver damage with overuse or overdose. Do not exceed recommended dosage."
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,5,بانادول,indications,0.10622368128943038,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: indications
+
+الاستخدامات / Indications
+كلمات بحث مساعدة: دواعي الاستعمال، الاستخدامات، بيتاخد ليه، علاج، indication
+Treatment of fever, mild to moderate pain"
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,6,بانادول,faers_events,0.10578095652397919,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: faers_events
+
+أشهر البلاغات الجانبية / Top FAERS adverse events
+كلمات بحث مساعدة: بلاغات جانبية، FAERS، أعراض مبلّغ عنها
+TOXICITY TO VARIOUS AGENTS (5904 reports); VOMITING (5674 reports); NAUSEA (5"
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,7,بانادول,interactions,0.09970110428057975,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: interactions
+
+التفاعلات الدوائية / Drug interactions
+كلمات بحث مساعدة: تداخلات، تفاعل مع أدوية، ينفع مع، interaction
+Carbamazepine, phenytoin, rifampicin (may reduce paracetamol levels), metoclopram"
+لو اخدت جرعة زيادة من بانادول اعمل ايه؟,بانادول,100,drug_specific,8,بانادول,overview,0.0991901668924969,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: overview
+
+اسم الدواء: بانادول
+الاسم العلمي / المادة الفعالة: Paracetamol
+الفئة الدوائية: analgesic
+الشكل الدوائي والتركيز: 500mg tablet
+طريقة الاستخدام / Route: oral
+متوفر في مصر: نعم
+مصادر البيانات"
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,1,بانادول,side_effects,0.45429571579457284,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: side_effects
+
+الأعراض الجانبية / Adverse reactions / Side effects
+كلمات بحث مساعدة: أعراض جانبية، أضرار، آثار جانبية، side effects
+Nausea, vomiting, rash, allergic reactions, liver damage (rare but "
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,2,بانادول,dosage,0.43492983493230186,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: dosage
+
+الجرعة وطريقة الاستخدام / Dosage
+كلمات بحث مساعدة: جرعة، الجرعة، طريقة الاستخدام، كام مرة، قبل الأكل، بعد الأكل، dose
+500mg every 4-6 hours; Maximum daily dose: 4g for adults. Renal/hepatic "
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,3,بانادول,pregnancy,0.434770376755142,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: pregnancy
+
+الحمل والرضاعة / Pregnancy and lactation
+كلمات بحث مساعدة: حامل، حمل، رضاعة، breastfeeding، pregnancy
+Category B: Animal reproduction studies have failed to demonstrate a risk to the fetu"
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,4,بانادول,pediatric,0.43367207961005233,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: pediatric
+
+الأطفال / Pediatric use
+كلمات بحث مساعدة: أطفال، طفل، رضيع، سن، وزن، pediatric
+Use with caution in children under 2 years of age. Consult healthcare provider for appropriate dosing."
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,5,بانادول,indications,0.4333656482266629,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: indications
+
+الاستخدامات / Indications
+كلمات بحث مساعدة: دواعي الاستعمال، الاستخدامات، بيتاخد ليه، علاج، indication
+Treatment of fever, mild to moderate pain"
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,6,بانادول,warnings,0.42595066236573603,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: warnings
+
+التحذيرات والاحتياطات / Warnings and precautions
+كلمات بحث مساعدة: تحذيرات، احتياطات، خطر، ممنوع، warning
+Risk of liver damage with overuse or overdose. Do not exceed recommended dosage."
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,7,بانادول,faers_events,0.42195556245431937,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: faers_events
+
+أشهر البلاغات الجانبية / Top FAERS adverse events
+كلمات بحث مساعدة: بلاغات جانبية، FAERS، أعراض مبلّغ عنها
+TOXICITY TO VARIOUS AGENTS (5904 reports); VOMITING (5674 reports); NAUSEA (5"
+هل الدواء ده ينفع للحامل؟ بانادول,بانادول,100,drug_specific,8,بانادول,overview,0.4199965566019919,"دواء: بانادول | Generic: Paracetamol | Class: analgesic | Form: 500mg tablet | Route: oral | Section: overview
+
+اسم الدواء: بانادول
+الاسم العلمي / المادة الفعالة: Paracetamol
+الفئة الدوائية: analgesic
+الشكل الدوائي والتركيز: 500mg tablet
+طريقة الاستخدام / Route: oral
+متوفر في مصر: نعم
+مصادر البيانات"

@@ -1,0 +1,11 @@
+raw_text,normalized_text,intent,drug_entities
+"الجرعة كام للكونجستال؟","ما جرعة Congestal؟","dosage","Congestal"
+"ينفع اخد بنادول مع كونجستال؟","هل يمكن تناول Panadol مع Congestal؟","interaction","Panadol|Congestal"
+"كونجستال بيعمل نعاس؟","هل Congestal يسبب النعاس؟","side_effects","Congestal"
+"ينفع للحامل تاخد بنادول؟","هل يمكن للحامل تناول Panadol؟","contraindication","Panadol"
+"اخدت كونجستال وحاسس بدوخة","تناولت Congestal وأشعر بدوخة","side_effects","Congestal"
+"ايه جرعة البروفين للاطفال؟","ما جرعة Brufen للأطفال؟","dosage","Brufen"
+"هل الاسبرين خطر لمرضى الضغط؟","هل Aspirin خطر لمرضى الضغط؟","contraindication","Aspirin"
+"ينفع اخد كتافلام مع بنادول؟","هل يمكن تناول Cataflam مع Panadol؟","interaction","Cataflam|Panadol"
+"كونجستول بيسبب نوم؟","هل Congestal يسبب النعاس؟","side_effects","Congestal"
+"جرعة الاموكسيسيلين كام؟","ما جرعة Amoxicillin؟","dosage","Amoxicillin"
